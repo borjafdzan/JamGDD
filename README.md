@@ -58,15 +58,18 @@ El progreso del jugador podra ser guardado, o podra empezar desde cero, cada vez
 se le daran puntos extra, que se le sumara a su puntuacion de partida.
 No existira ningun modo de dificultad dado que la dificultad ira aumentado a medida que pase cada ronda, si el jugador es muy bueno alcanzara un numero de ronda mas alta
 y por lo tanto una puntuacion mayor, si el jugador és muy malo tendra que repetir la ronda o empezar el juego otra vez en caso de que la puntuación baje de cero, esto 
-hara que el jugador tenga que mejorar para pasar a las siguientes rondas y por lo tanto obtener una puntuación mas alta.
+hara que el jugador tenga que mejorar para pasar a las siguientes rondas , para compensar el esfuerzo de reiniciar el juego se le dara un bonus cada vez que alcance una
+ronda que nunca haya alcanzado incrementando mas su puntuación.
 
 # Interfaces
 ## Interfaz de inicio de ronda
-En la interfaz de inicio de ronda se mostrara en pantalla una cuenta atras del 3 al cero y se le informara al jugador si tiene qeu escoger el numero mas bajo o el mas alto
+En la interfaz de inicio de ronda se mostrara en pantalla una cuenta atras del 3 al cero y se le informara al jugador si tiene qeu escoger el numero mas bajo o el mas alto, asi
+como el tiempo disponible para completar la ronda
 
 ## Interfaz pantalla principal
 En la interfaz de pantalla principal es donde estara el juego principal apareceran el numero de numeros correspondiente a la ronda, y se moveran conforme se a especificado en el
-apartado Progreso de este documento de juego.
+apartado [Progreso] de este documento de juego. En la parte superior aparecera un cronometro con el tiempo disponible para acabar la ronda, cuando el tiempo sea menor al 
+25% del tiempo inicial dado el cronometro se pondra en rojo.
 
 ## Interfaz final Ronda
 Cuando finalice la ronda se le mostrara al jugador un icono de OK en caso de que haya ganado o una X en caso de que haya perdido, aparecera el contador de puntos que tiene

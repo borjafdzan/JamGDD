@@ -54,14 +54,28 @@ se le acabe el tiempo se le restara puntos de su puntuación actual en caso de q
 El objetivo del juego es alcanzar el maximo de puntos posible.
 
 # Opciones de juego
+## Progreso
 El progreso del jugador podra ser guardado, o podra empezar desde cero, cada vez que el jugador rompa un record, es decir que alcance una ronda que nunca antes habia alcanzado
-se le daran puntos extra, que se le sumara a su puntuacion de partida.
+se le daran puntos extra, que se le sumara a su **puntuacion de partida**.
+
+## Dificultad
 No existira ningun modo de dificultad dado que la dificultad ira aumentado a medida que pase cada ronda, si el jugador es muy bueno alcanzara un numero de ronda mas alta
 y por lo tanto una puntuacion mayor, si el jugador és muy malo tendra que repetir la ronda o empezar el juego otra vez en caso de que la puntuación baje de cero, esto 
 hara que el jugador tenga que mejorar para pasar a las siguientes rondas , para compensar el esfuerzo de reiniciar el juego se le dara un bonus cada vez que alcance una
 ronda que nunca haya alcanzado incrementando mas su puntuación.
 
+## Rejugar y guardar
+Se guarda automaticamente una vez alcanzado la ronda se guarda la puntuación alcanzada en la partida y el numero de ronda, no abra opcion para ponerle nombre a la partida
+se le pondra como nombre la fecha y la hora en la que se jugo.
+
+La unica manera de rejugar una ronda es perdiendola o empezando una nueva partida desde cero.
+
 # Interfaces
+## Interfaz inicial
+En la interfaz inicial se le mostrara al jugador 2 botones empezar una **nueva partida**, o cargar una de las partidas anteriores jugadas mediante el boton **Cargar**, una 
+vez hecho click en el boton **Cargar**, se le llevara a otra pantalla donde podra elegir la partida que jugo anteriormente, se mostrara una lista donde como titulo
+estara la fecha en la que se jugo la partida y en la parte derecha se mostrara la puntuacion alzanda en la partida y el numero de ronda alcanzado.
+
 ## Interfaz de inicio de ronda
 En la interfaz de inicio de ronda se mostrara en pantalla una cuenta atras del 3 al cero y se le informara al jugador si tiene qeu escoger el numero mas bajo o el mas alto, asi
 como el tiempo disponible para completar la ronda

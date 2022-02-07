@@ -38,7 +38,10 @@ El objetivo del juego es alcanzar el maximo de puntos posible.
 
 # Opciones de juego
 El progreso del jugador podra ser guardado, o podra empezar desde cero, cada vez que el jugador rompa un record, es decir que alcance una ronda que nunca antes habia alcanzado
-se le daran puntos extra, que se le sumara a su puntuacion de partida
+se le daran puntos extra, que se le sumara a su puntuacion de partida.
+No existira ningun modo de dificultad dado que la dificultad ira aumentado a medida que pase cada ronda, si el jugador es muy bueno alcanzara un numero de ronda mas alta
+y por lo tanto una puntuacion mayor, si el jugador és muy malo tendra que repetir la ronda o empezar el juego otra vez en caso de que la puntuación baje de cero, esto 
+hara que el jugador tenga que mejorar para pasar a las siguientes rondas y por lo tanto obtener una puntuación mas alta.
 
 # Interfaces
 ## Interfaz de inicio de ronda

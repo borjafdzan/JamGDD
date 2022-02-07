@@ -1,5 +1,12 @@
 # JamGDD
 
+# Presentacion
+## Nombre de juego
+The Choosen number.
+
+## Genero
+Juego casual.
+
 # Descripcion
 Juego de movil, que esta enfocado a mejorar la memoria.
 
@@ -44,6 +51,21 @@ apartado Progreso de este documento de juego.
 Cuando finalice la ronda se le mostrara al jugador un icono de OK en caso de que haya ganado o una X en caso de que haya perdido, aparecera el contador de puntos que tiene
 el jugador y se activara una animación para mostrar como se incrementan los puntos ganados en la ronda al contador del jugador. Una vez incrementada la puntuación del jugador
 en caso de que haya ganado aparecera un boton Siguiente que servira para pasar a la siguiente ronda, y en caso de que haya perdido aparecera un boton Reintentar para reintentar la ronda que no ha conseguido superar.
+
+# Audio
+Cada vez que el jugador elija un numero sonara un audio que sera distinto dependiendo de si el jugador ha ganado la ronda o la ha perdido. Tambien habra un sonido de caja 
+registradora cada vez que se active la animacion que incrementa los puntos del jugador al final de cada ronda.
+
+# Controles
+La unica forma en la que el jugador puede interactuar con el juego es haciendo click, o tocando en caso de que este jugando en dispositivos moviles, esta forma de 
+interacción también se aplica a los botones para pasar a la siguiente ronda o para reintentarla.
+
+# Plataformas y dispositivos
+Este juego tiene como destino tanto PC como dispositivos moviles, aunque esta enfocado mas al segundo en ambos es jugable, dado que los controles de toque en el dispositivo moviles es el equivalente ha hacer click en un PC.
+
+## Requisitos tecnicos
+Practicamente todos los PCs y dispositivos moviles pueden ejecutar el juego, no tiene ningun tipo de exigencia grafica, ni de rendimiento.
+
 
 
 

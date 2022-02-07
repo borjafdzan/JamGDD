@@ -10,11 +10,12 @@ Juego casual.
 # Descripcion
 Juego de movil, que esta enfocado a mejorar la memoria.
 
-# Flujo de juego
+# Conceptos clave
+## Flujo de juego
 El juego consiste en que en pantalla saldran un conjunto de numeros de diferentes tamaños y que se moveran por la pantalla el usuario debera tocar
 o hacer click en el numero mas alto o en el numero mas bajo segun le indique el inicio de ronda.
 
-# Progreso
+## Progreso
 A medida que el jugador pase rondas la cantidad de numeros que saldra por pantalla aumentara, tambien aumentara la diferencia de tamaño entre
 ellos asi como la diferencia entre su velocidad de movimiento, aqui estaria una progresion de rondas estandar:
 

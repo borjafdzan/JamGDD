@@ -1,13 +1,13 @@
 # JamGDD
 
-#Descripcion
+# Descripcion
 Juego de movil, que esta enfocado a mejorar la memoria.
 
-#Flujo de juego
+# Flujo de juego
 El juego consiste en que en pantalla saldran un conjunto de numeros de diferentes tamaños y que se moveran por la pantalla el usuario debera tocar
 o hacer click en el numero mas alto o en el numero mas bajo segun le indique el inicio de ronda.
 
-#Progreso
+# Progreso
 A medida que el jugador pase rondas la cantidad de numeros que saldra por pantalla aumentara, tambien aumentara la diferencia de tamaño entre
 ellos asi como la diferencia entre su velocidad de movimiento, aqui estaria una progresion de rondas estandar:
 
@@ -27,6 +27,6 @@ En cada ronda al jugador se le asignara una puntuación dependiendo de lo rapido
 
 El objetivo del juego es alcanzar el maximo de puntos posible.
 
-#Opciones de juego
+# Opciones de juego
 El progreso del jugador podra ser guardado, o podra empezar desde cero, cada vez que el jugador rompa un record, es decir que alcance una ronda que nunca antes habia alcanzado
 se le daran puntos extra, que se le sumara a su puntuacion de partida

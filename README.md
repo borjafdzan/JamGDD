@@ -68,7 +68,7 @@ como el tiempo disponible para completar la ronda
 
 ## Interfaz pantalla principal
 En la interfaz de pantalla principal es donde estara el juego principal apareceran el numero de numeros correspondiente a la ronda, y se moveran conforme se a especificado en el
-apartado [Progreso] de este documento de juego. En la parte superior aparecera un cronometro con el tiempo disponible para acabar la ronda, cuando el tiempo sea menor al 
+apartado **Progreso]** de este documento de juego. En la parte superior aparecera un cronometro con el tiempo disponible para acabar la ronda, cuando el tiempo sea menor al 
 25% del tiempo inicial dado el cronometro se pondra en rojo.
 
 ## Interfaz final Ronda

@@ -102,7 +102,3 @@ Este juego tiene como destino tanto **PC** como **dispositivos moviles**, aunque
 
 ## Requisitos tecnicos
 Practicamente todos los PCs y dispositivos moviles pueden ejecutar el juego, no tiene ningun tipo de exigencia grafica, ni de rendimiento.
-
-
-
-

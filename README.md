@@ -59,13 +59,13 @@ El progreso del jugador podra ser guardado, o podra empezar desde cero, cada vez
 se le daran puntos extra, que se le sumara a su **puntuacion de partida**.
 
 ## Dificultad
-No existira ningun modo de dificultad dado que la dificultad ira aumentado a medida que pase cada ronda, si el jugador es muy bueno alcanzara un numero de ronda mas alta
+La dificultad sera fija. La dificultad ira aumentado a medida que pase cada ronda, si el jugador es muy bueno alcanzara un numero de ronda mas alta
 y por lo tanto una puntuacion mayor, si el jugador és muy malo tendra que repetir la ronda o empezar el juego otra vez en caso de que la puntuación baje de cero, esto 
 hara que el jugador tenga que mejorar para pasar a las siguientes rondas , para compensar el esfuerzo de reiniciar el juego se le dara un bonus cada vez que alcance una
 ronda que nunca haya alcanzado incrementando mas su puntuación.
 
 ## Rejugar y guardar
-Se guarda automaticamente una vez alcanzado la ronda se guarda la puntuación alcanzada en la partida y el numero de ronda, no abra opcion para ponerle nombre a la partida
+Se guarda automaticamente una vez pasada la ronda la ronda se guarda la puntuación alcanzada en la partida y el numero de ronda, no abra opcion para ponerle nombre a la partida
 se le pondra como nombre la fecha y la hora en la que se jugo.
 
 La unica manera de rejugar una ronda es perdiendola o empezando una nueva partida desde cero.

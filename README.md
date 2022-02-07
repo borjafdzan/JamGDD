@@ -8,7 +8,7 @@ The Choosen number.
 Juego casual.
 
 # Descripcion
-Juego de movil, que esta enfocado a mejorar la memoria.
+Juego de movil, que esta enfocado a mejorar los reflejos.
 
 # Conceptos clave
 ## Flujo de juego
